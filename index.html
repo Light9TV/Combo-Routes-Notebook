@@ -45,7 +45,18 @@
           </label>
           <label>
             Password
-            <input id="cloudPassword" type="password" placeholder="Password" autocomplete="current-password" />
+            <input
+              id="cloudPassword"
+              type="password"
+              placeholder="Password"
+              autocomplete="current-password"
+              minlength="8"
+              pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}"
+              title="Password must be at least 8 characters and include uppercase, lowercase, and a number."
+            />
+            <small class="field-help">
+              Minimum 8 characters with uppercase, lowercase, and a number.
+            </small>
           </label>
         </div>
         <div class="actions cloud-actions">
