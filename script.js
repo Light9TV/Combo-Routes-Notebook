@@ -3,8 +3,8 @@
     // STEP 1:
     // Paste your Supabase Project URL and anon/publishable key below.
     // Do NOT paste a service_role or secret key here.
-    const SUPABASE_URL = "PASTE_YOUR_SUPABASE_PROJECT_URL_HERE";
-    const SUPABASE_ANON_KEY = "PASTE_YOUR_SUPABASE_ANON_OR_PUBLISHABLE_KEY_HERE";
+    const SUPABASE_URL = "https://abkcmqekvgqqufggxlyn.supabase.co";
+    const SUPABASE_ANON_KEY = "sb_publishable_wsC5HEM7YnSygAkufKPV7w_zPXq6wqO";
     const CLOUD_TABLE = "combo_routes";
 
     const cloudConfigured =
